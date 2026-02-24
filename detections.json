@@ -1,0 +1,8 @@
+{
+    "total_frames": 42,
+    "mac_stats": {
+        "AA:BB:CC:11:22:33": 25,
+        "AA:BB:CC:44:55:66": 17
+    },
+    "timestamp": 1700000000
+}
