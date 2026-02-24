@@ -76,6 +76,13 @@ df = pd.DataFrame([
 
 st.dataframe(df, use_container_width=True)
 
+if not df.empty:
+    top_attacker = df.sort_values("Frames Sent", ascending=False).iloc[0]
+
+    st.error(
+        f"🚨 Most Active Sender Detected → {top_attacker['MAC Address']} "
+        f"({top_attacker['Frames Sent']} frames)"
+    )
 # ---- Charts Section ----
 if not df.empty:
 

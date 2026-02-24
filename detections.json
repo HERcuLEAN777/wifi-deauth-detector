@@ -1,8 +1,9 @@
 {
-    "total_frames": 42,
-    "mac_stats": {
-        "AA:BB:CC:11:22:33": 25,
-        "AA:BB:CC:44:55:66": 17
-    },
-    "timestamp": 1700000000
+  "total_frames": 87,
+  "mac_stats": {
+    "3C:84:6A:12:45:9B": 34,
+    "A4:5E:60:AF:21:C8": 29,
+    "D8:BB:2C:98:11:77": 24
+  },
+  "timestamp": 1700000000
 }
